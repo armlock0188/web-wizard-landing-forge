@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "./ui/card";
-import { LayoutGrid, Gallery } from "lucide-react";
+import { LayoutGrid, Images } from "lucide-react";
 
 export default function About() {
   return (
@@ -31,7 +31,7 @@ export default function About() {
           <Card className="glass-card hover:scale-105 transition-all duration-300">
             <CardContent className="pt-6">
               <div className="mb-4 bg-primary/20 p-3 rounded-lg w-12 h-12 flex items-center justify-center">
-                <Gallery className="text-primary" />
+                <Images className="text-primary" />
               </div>
               <h3 className="text-xl font-bold mb-3">Painéis Administrativos</h3>
               <p className="text-gray-300">
